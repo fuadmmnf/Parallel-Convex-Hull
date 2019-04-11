@@ -103,7 +103,7 @@ main(int argc, char **argv)
 	int * data;
 	int * chunk;
 	int * other;
-	int m,n=N;
+	int m,n=atoi(argv[1]);
 	int id,p;
 	int s = 0;
 	int i;
